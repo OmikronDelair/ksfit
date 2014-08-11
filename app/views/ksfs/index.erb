@@ -1,3 +1,8 @@
 <h1>Welcome to KSFIt!</h1>
 <h2>Make your UCSs playable on DM for Android</h2>
 <p>Upload your stepchart and we'll convert it to KSF2 wrapped up in a zip file including its audio file and optimized graphics for your mobile device.</p>
+
+<%= form_tag({action: :upload}, multipart: true) do %>
+<%= file_field_tag 'ucs_file' %>
+<%= submit_tag 'Upload' %>
+<% end %>
