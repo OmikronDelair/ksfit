@@ -13,4 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require uploader/jquery.ui.widget
+//= require uploader/jquery.iframe-transport
+//= require uploader/jquery.fileupload
+//= require ksf_app
