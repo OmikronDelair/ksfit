@@ -3,6 +3,9 @@
 <p>Upload your stepchart and we'll convert it to KSF2 wrapped up in a zip file including its audio file and optimized graphics for your mobile device.</p>
 
 <%= form_tag({action: :upload}, multipart: true) do %>
-<%= file_field_tag 'ucs_file' %>
-<%= submit_tag 'Upload' %>
+  <%= file_field_tag 'ucs_file' %>
 <% end %>
+
+<div id="ucs-info"></div>
+
+<script src="/assets/ksf_app.js"></script>

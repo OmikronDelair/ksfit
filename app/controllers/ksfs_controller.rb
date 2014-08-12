@@ -13,7 +13,7 @@ class KsfsController < ApplicationController
 
     respond_to do |format|
       format.html {redirect_to action: :index}
-      format.json {render json: '[{"file_location" : "' + numberized_filename + '"}]'}
+      format.json {render json: json_response(numberized_filename), content_type: request.format}
     end
   end
 
@@ -21,5 +21,16 @@ class KsfsController < ApplicationController
 
   def numberize slug
     slug + '-' + Time.now.seconds_since_midnight.round.to_s
+  end
+
+  def json_response filename
+    {
+          files: [
+            {
+              name: filename,
+              url: 'uploads/' + filename
+            }
+          ]
+        }
   end
 end
