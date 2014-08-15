@@ -21,6 +21,20 @@ class KsfsController < ApplicationController
 
   private
 
+  def find_file filename
+    result = nil
+
+    @current_songs.each do |song|
+      result = song['ucs_id'] if (filename[song['ucs_id']] != nil)
+    end
+
+    if result == nil
+      ["Song was not found", nil]
+    else
+      ["Song found! " + result, result]
+    end
+  end
+
   def get_songs
     songs_json = Rails.root.join('app','assets','javascripts','current_songs.json')
     @current_songs = ActiveSupport::JSON.decode(File.open(songs_json))
@@ -35,7 +49,8 @@ class KsfsController < ApplicationController
           files: [
             {
               name: filename,
-              url: 'uploads/' + filename
+              url: 'uploads/' + filename,
+              message: find_file(filename)
             }
           ]
         }
