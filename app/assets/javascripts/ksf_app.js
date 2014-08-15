@@ -8,6 +8,8 @@ $(function () {
     done: function (e, data) {
       $.each(data.result.files, function (index, file) {
         $('<p/>').text(file.message[0]).attr('data-ucs-info',file.name).appendTo('#ucs-info');
+        $('select').val(file.message[1]);
+        $('#file_name').val(file.name);
       });
     },
     progressall: function (e, data) {

@@ -19,6 +19,9 @@ class KsfsController < ApplicationController
     end
   end
 
+  def ksf_it
+  end
+
   private
 
   def find_file filename

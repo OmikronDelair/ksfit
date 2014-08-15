@@ -7,7 +7,11 @@
 <% end %>
 
 <div id="ucs-info">
+<%= form_tag({action: :ksf_it}, id: 'ksf-it') do %>
   <%= select(:song, :ucs_id, @current_songs.map {|s| [ s['title'], s['ucs_id'] ] }) %>
+  <%= text_field :file, :name%>
+  <%= submit_tag "KSF it!"%>
+<% end %>
 </div>
 
 <script src="/assets/ksf_app.js"></script>
