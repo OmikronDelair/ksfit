@@ -1,0 +1,1052 @@
+[
+  {
+    "ucs_id":"CS001",
+    "bpm":"195",
+    "delay":3805,
+    "artist":"BanYa",
+    "title":"Extravaganza"
+  },
+  {
+    "ucs_id":"CS002",
+    "bpm":"130.5",
+    "delay":1920,
+    "artist":"BanYa",
+    "title":"Final Audition"
+  },
+  {
+    "ucs_id":"CS003",
+    "bpm":"135",
+    "delay":60,
+    "artist":"BanYa",
+    "title":"Pumping  Up"
+  },
+  {
+    "ucs_id":"CS004",
+    "bpm":"230",
+    "delay":1117.5,
+    "artist":"BanYa",
+    "title":"She  Likes Pizza"
+  },
+  {
+    "ucs_id":"CS005",
+    "bpm":"80",
+    "delay":515,
+    "artist":"BanYa",
+    "title":"Midnight Blue"
+  },
+  {
+    "ucs_id":"CS006",
+    "bpm":"99",
+    "delay":2340,
+    "artist":"BanYa",
+    "title":"Free  Style"
+  },
+  {
+    "ucs_id":"CS007",
+    "bpm":"105",
+    "delay":4692.5,
+    "artist":"BanYa",
+    "title":"Close  Your Eye"
+  },
+  {
+    "ucs_id":"CS008",
+    "bpm":"120",
+    "delay":5980,
+    "artist":"BanYa",
+    "title":"A Nightmare"
+  },
+  {
+    "ucs_id":"CS009",
+    "bpm":"150",
+    "delay":4325,
+    "artist":"BanYa",
+    "title":"Turkey March"
+  },
+  {
+    "ucs_id":"CS010",
+    "bpm":"136",
+    "delay":1195.5,
+    "artist":"BanYa",
+    "title":"Naissance"
+  },
+  {
+    "ucs_id":"CS011",
+    "bpm":"130",
+    "delay":6200,
+    "artist":"BanYa",
+    "title":"Final Audition  2"
+  },
+  {
+    "ucs_id":"CS012",
+    "bpm":"190",
+    "delay":1755,
+    "artist":"BanYa",
+    "title":"Mr. Larpus"
+  },
+  {
+    "ucs_id":"CS013",
+    "bpm":"136",
+    "delay":35,
+    "artist":"BanYa",
+    "title":"Solitary"
+  },
+  {
+    "ucs_id":"CS014",
+    "bpm":"92",
+    "delay":105,
+    "artist":"BanYa",
+    "title":"Betrayer"
+  },
+  {
+    "ucs_id":"CS015",
+    "bpm":"104",
+    "delay":115,
+    "artist":"BanYa",
+    "title":"First Love"
+  },
+  {
+    "ucs_id":"CS016",
+    "bpm":"148",
+    "delay":1725,
+    "artist":"BanYa",
+    "title":"Oh! Rosa"
+  },
+  {
+    "ucs_id":"CS017",
+    "bpm":"162",
+    "delay":187.5,
+    "artist":"BanYa",
+    "title":"Beethoven Virus"
+  },
+  {
+    "ucs_id":"CS018",
+    "bpm":"130",
+    "delay":5618,
+    "artist":"BanYa",
+    "title":"All I Want  For X-mas"
+  },
+  {
+    "ucs_id":"CS019",
+    "bpm":"142",
+    "delay":160,
+    "artist":"BanYa",
+    "title":"Rolling Christmas"
+  },
+  {
+    "ucs_id":"CS020",
+    "bpm":"106",
+    "delay":627,
+    "artist":"BanYa",
+    "title":"N"
+  },
+  {
+    "ucs_id":"CS021",
+    "bpm":"106",
+    "delay":2275,
+    "artist":"BanYa",
+    "title":"Pump  Jump"
+  },
+  {
+    "ucs_id":"CS047",
+    "bpm":"189",
+    "delay":182.5,
+    "artist":"BanYa",
+    "title":"Final Audition  Ep. 1"
+  },
+  {
+    "ucs_id":"CS048",
+    "bpm":"200",
+    "delay":127.5,
+    "artist":"BanYa",
+    "title":"CHICKEN WING"
+  },
+  {
+    "ucs_id":"CS022",
+    "bpm":"180",
+    "delay":65,
+    "artist":"BanYa",
+    "title":"CSIKOS POST"
+  },
+  {
+    "ucs_id":"CS023",
+    "bpm":"184",
+    "delay":115,
+    "artist":"BanYa",
+    "title":"Vook"
+  },
+  {
+    "ucs_id":"CS024",
+    "bpm":"122",
+    "delay":792,
+    "artist":"BanYa",
+    "title":"Dance  with me"
+  },
+  {
+    "ucs_id":"CS025",
+    "bpm":"120",
+    "delay":2140,
+    "artist":"BanYa",
+    "title":"Set me  up"
+  },
+  {
+    "ucs_id":"CS026",
+    "bpm":"111",
+    "delay":1115,
+    "artist":"BanYa",
+    "title":"Miss S' story"
+  },
+  {
+    "ucs_id":"CS027",
+    "bpm":"118",
+    "delay":707.5,
+    "artist":"BanYa",
+    "title":"We will meet again"
+  },
+  {
+    "ucs_id":"CS028",
+    "bpm":"148",
+    "delay":645,
+    "artist":"BanYa",
+    "title":"Oy oy oy"
+  },
+  {
+    "ucs_id":"CS029",
+    "bpm":"140",
+    "delay":1140,
+    "artist":"BanYa",
+    "title":"Till the  end  of time"
+  },
+  {
+    "ucs_id":"CS030",
+    "bpm":"210",
+    "delay":85,
+    "artist":"BanYa",
+    "title":"Will o'  The Wisp"
+  },
+  {
+    "ucs_id":"CS031",
+    "bpm":"168",
+    "delay":1445,
+    "artist":"BanYa",
+    "title":"Winter"
+  },
+  {
+    "ucs_id":"CS032",
+    "bpm":"110.8",
+    "delay":895,
+    "artist":"BanYa",
+    "title":"Top City"
+  },
+  {
+    "ucs_id":"CS033",
+    "bpm":"124",
+    "delay":100,
+    "artist":"BanYa",
+    "title":"Street show  down"
+  },
+  {
+    "ucs_id":"CS034",
+    "bpm":"92",
+    "delay":55,
+    "artist":"BanYa",
+    "title":"Point  Break"
+  },
+  {
+    "ucs_id":"CS035",
+    "bpm":"118",
+    "delay":95,
+    "artist":"BanYa",
+    "title":"My way"
+  },
+  {
+    "ucs_id":"CS036",
+    "bpm":"124",
+    "delay":840,
+    "artist":"BanYa",
+    "title":"Mission  Possible"
+  },
+  {
+    "ucs_id":"CS037",
+    "bpm":"136",
+    "delay":790,
+    "artist":"BanYa",
+    "title":"Maria"
+  },
+  {
+    "ucs_id":"CS038",
+    "bpm":"140",
+    "delay":25,
+    "artist":"BanYa",
+    "title":"Love is a Danger Zone"
+  },
+  {
+    "ucs_id":"CS039",
+    "bpm":"96",
+    "delay":940,
+    "artist":"BanYa",
+    "title":"Get Your Groove  On"
+  },
+  {
+    "ucs_id":"CS040",
+    "bpm":"150",
+    "delay":815,
+    "artist":"BanYa",
+    "title":"Emperor"
+  },
+  {
+    "ucs_id":"CS041",
+    "bpm":"145",
+    "delay":45,
+    "artist":"BanYa",
+    "title":"Dr. M"
+  },
+  {
+    "ucs_id":"CS042",
+    "bpm":"100~107",
+    "delay":40,
+    "artist":"BanYa",
+    "title":"Come  to  Me"
+  },
+  {
+    "ucs_id":"CS043",
+    "bpm":"???",
+    "delay":62.5,
+    "artist":"BanYa",
+    "title":"Beat  of The War"
+  },
+  {
+    "ucs_id":"CS044",
+    "bpm":"140",
+    "delay":90,
+    "artist":"BanYa",
+    "title":"Hello"
+  },
+  {
+    "ucs_id":"CS045",
+    "bpm":"150",
+    "delay":75,
+    "artist":"BanYa",
+    "title":"D Gang"
+  },
+  {
+    "ucs_id":"CS046",
+    "bpm":"160",
+    "delay":139,
+    "artist":"BanYa",
+    "title":"Bee"
+  },
+  {
+    "ucs_id":"CS049",
+    "bpm":"180",
+    "delay":77.5,
+    "artist":"BanYa",
+    "title":"Get Up"
+  },
+  {
+    "ucs_id":"CS050",
+    "bpm":"162",
+    "delay":107.5,
+    "artist":"BanYa",
+    "title":"X Treme"
+  },
+  {
+    "ucs_id":"CS051",
+    "bpm":"170",
+    "delay":172.5,
+    "artist":"BanYa",
+    "title":"Pump  Me Amadeus"
+  },
+  {
+    "ucs_id":"CS052",
+    "bpm":"158",
+    "delay":90,
+    "artist":"BanYa",
+    "title":"Blazing"
+  },
+  {
+    "ucs_id":"CS053",
+    "bpm":"186",
+    "delay":222.5,
+    "artist":"BanYa",
+    "title":"Monkey  Fingers"
+  },
+  {
+    "ucs_id":"CS054",
+    "bpm":"129",
+    "delay":85,
+    "artist":"BanYa",
+    "title":"Naissance 2"
+  },
+  {
+    "ucs_id":"CS055",
+    "bpm":"130.5",
+    "delay":-67.5,
+    "artist":"BanYa",
+    "title":"Final Audition  3"
+  },
+  {
+    "ucs_id":"CS056",
+    "bpm":"160",
+    "delay":90,
+    "artist":"BanYa",
+    "title":"Canon-D"
+  },
+  {
+    "ucs_id":"CS057",
+    "bpm":"136",
+    "delay":-250,
+    "artist":"BanYa",
+    "title":"Solitary 2"
+  },
+  {
+    "ucs_id":"CS058",
+    "bpm":"145",
+    "delay":82.5,
+    "artist":"BanYa",
+    "title":"Hi Bi"
+  },
+  {
+    "ucs_id":"CS059",
+    "bpm":"140",
+    "delay":82.5,
+    "artist":"BanYa",
+    "title":"J Bong"
+  },
+  {
+    "ucs_id":"CS060",
+    "bpm":"145",
+    "delay":112.5,
+    "artist":"BanYa",
+    "title":"Papa  Gonzales"
+  },
+  {
+    "ucs_id":"CS061",
+    "bpm":"136",
+    "delay":52.5,
+    "artist":"BanYa",
+    "title":"Phantom"
+  },
+  {
+    "ucs_id":"CS062",
+    "bpm":"162",
+    "delay":800,
+    "artist":"BanYa",
+    "title":"Love is a Danger Zone  pt. 2"
+  },
+  {
+    "ucs_id":"CS063",
+    "bpm":"195",
+    "delay":82.5,
+    "artist":"BanYa",
+    "title":"Witch Doctor"
+  },
+  {
+    "ucs_id":"CS064",
+    "bpm":"180",
+    "delay":40,
+    "artist":"BanYa",
+    "title":"Moonlight"
+  },
+  {
+    "ucs_id":"CS065",
+    "bpm":"???",
+    "delay":52.5,
+    "artist":"BanYa",
+    "title":"Beat  of The War 2"
+  },
+  {
+    "ucs_id":"CS066",
+    "bpm":"162",
+    "delay":795,
+    "artist":"BanYa",
+    "title":"Love is a Danger Zone  pt.2 (Another)"
+  },
+  {
+    "ucs_id":"CS069",
+    "bpm":"92",
+    "delay":80,
+    "artist":"Banya Production",
+    "title":"Ugly Dee"
+  },
+  {
+    "ucs_id":"CS070",
+    "bpm":"168",
+    "delay":55,
+    "artist":"Banya Production",
+    "title":"Bullfighter's Song"
+  },
+  {
+    "ucs_id":"CS071",
+    "bpm":"104",
+    "delay":48,
+    "artist":"Banya Production",
+    "title":"Gun Rock"
+  },
+  {
+    "ucs_id":"CS072",
+    "bpm":"120",
+    "delay":70,
+    "artist":"Banya Production",
+    "title":"Do U Know That-Old School"
+  },
+  {
+    "ucs_id":"CS073",
+    "bpm":"96",
+    "delay":130,
+    "artist":"Banya Production",
+    "title":"2006.  LOVE SONG"
+  },
+  {
+    "ucs_id":"CS077",
+    "bpm":"120",
+    "delay":60,
+    "artist":"Banya Production",
+    "title":"Jam O Beat"
+  },
+  {
+    "ucs_id":"CS078",
+    "bpm":"150",
+    "delay":67.5,
+    "artist":"Banya Production",
+    "title":"Higgledy Piggledy"
+  },
+  {
+    "ucs_id":"CS079",
+    "bpm":"120",
+    "delay":70,
+    "artist":"Banya Production",
+    "title":"Guitar  Man"
+  },
+  {
+    "ucs_id":"CS082",
+    "bpm":"180",
+    "delay":74,
+    "artist":"Banya Production",
+    "title":"Monkey  Fingers  2"
+  },
+  {
+    "ucs_id":"CS083",
+    "bpm":"130",
+    "delay":60,
+    "artist":"Banya Production",
+    "title":"Money"
+  },
+  {
+    "ucs_id":"CS084",
+    "bpm":"160",
+    "delay":73.5,
+    "artist":"Banya Production",
+    "title":"Caprice  of Otada"
+  },
+  {
+    "ucs_id":"CS085",
+    "bpm":"124",
+    "delay":45,
+    "artist":"Banya Production",
+    "title":"Beat  the  ghost"
+  },
+  {
+    "ucs_id":"CS089",
+    "bpm":"104",
+    "delay":67,
+    "artist":"Banya Production",
+    "title":"Toccata"
+  },
+  {
+    "ucs_id":"CS090",
+    "bpm":"136",
+    "delay":84.5,
+    "artist":"Banya Production",
+    "title":"My Dreams"
+  },
+  {
+    "ucs_id":"CS091",
+    "bpm":"156",
+    "delay":110,
+    "artist":"Banya Production",
+    "title":"K.O.A  : Alice In Wonderworld"
+  },
+  {
+    "ucs_id":"CS092",
+    "bpm":"180",
+    "delay":82.5,
+    "artist":"Banya Production",
+    "title":"DJ Otada"
+  },
+  {
+    "ucs_id":"CS093",
+    "bpm":"134",
+    "delay":80,
+    "artist":"Banya Production",
+    "title":"The People didn't know"
+  },
+  {
+    "ucs_id":"CS099",
+    "bpm":"116",
+    "delay":-460,
+    "artist":"Banya Production",
+    "title":"Pumping Jumping"
+  },
+  {
+    "ucs_id":"CS100",
+    "bpm":"128",
+    "delay":125,
+    "artist":"Banya Production",
+    "title":"Mission  Possible -Blow Back-"
+  },
+  {
+    "ucs_id":"CS101",
+    "bpm":"140",
+    "delay":70,
+    "artist":"Banya Production",
+    "title":"Phantom -Intermezzo-"
+  },
+  {
+    "ucs_id":"CS102",
+    "bpm":"164",
+    "delay":105,
+    "artist":"Banya Production",
+    "title":"Get Up (and  go)"
+  },
+  {
+    "ucs_id":"CS103",
+    "bpm":"130",
+    "delay":95,
+    "artist":"Banya Production",
+    "title":"Turkey March  -Minimal  Tunes-"
+  },
+  {
+    "ucs_id":"CS104",
+    "bpm":"170",
+    "delay":92.5,
+    "artist":"Banya Production",
+    "title":"Hello William"
+  },
+  {
+    "ucs_id":"CS105",
+    "bpm":"132",
+    "delay":70,
+    "artist":"Banya Production",
+    "title":"Tek -Club  Copenhagen-"
+  },
+  {
+    "ucs_id":"CS106",
+    "bpm":"160",
+    "delay":60,
+    "artist":"Banya Production",
+    "title":"Arirang"
+  },
+  {
+    "ucs_id":"CS107",
+    "bpm":"152",
+    "delay":25,
+    "artist":"Banya Production",
+    "title":"Xenesis"
+  },
+  {
+    "ucs_id":"CS108",
+    "bpm":"96",
+    "delay":72.5,
+    "artist":"Banya Production",
+    "title":"Do It Reggae Style"
+  },
+  {
+    "ucs_id":"CS119",
+    "bpm":"130~240",
+    "delay":90,
+    "artist":"Banya Production",
+    "title":"The Devil"
+  },
+  {
+    "ucs_id":"CS120",
+    "bpm":"145",
+    "delay":80,
+    "artist":"Banya Production",
+    "title":"Hungarian Dance  V"
+  },
+  {
+    "ucs_id":"CS149",
+    "bpm":"175",
+    "delay":27,
+    "artist":"BanYa & SynthWulf",
+    "title":"Hypnosis(SynthWulf Mix)"
+  },
+  {
+    "ucs_id":"CS150",
+    "bpm":"155",
+    "delay":212,
+    "artist":"BanYa & Cranky",
+    "title":"Love Is A Danger Zone(Cranky Mix)"
+  },
+  {
+    "ucs_id":"CS151",
+    "bpm":"220",
+    "delay":52,
+    "artist":"BanYa & DM Ashura",
+    "title":"Ignis Fatuus(DM  Ashura  Mix)"
+  },
+  {
+    "ucs_id":"CS076",
+    "bpm":"122",
+    "delay":85,
+    "artist":"YAHPP",
+    "title":"Witch Doctor #1"
+  },
+  {
+    "ucs_id":"CS075",
+    "bpm":"135",
+    "delay":0,
+    "artist":"YAHPP",
+    "title":"Arch of Darkness"
+  },
+  {
+    "ucs_id":"CS074",
+    "bpm":"210",
+    "delay":120,
+    "artist":"YAHPP",
+    "title":"Chimera"
+  },
+  {
+    "ucs_id":"CS068",
+    "bpm":"170",
+    "delay":67,
+    "artist":"YAHPP",
+    "title":"Final Audition  Ep. 2-1"
+  },
+  {
+    "ucs_id":"CS067",
+    "bpm":"200",
+    "delay":72.5,
+    "artist":"YAHPP",
+    "title":"Final Audition  Ep. 2-2"
+  },
+  {
+    "ucs_id":"CS086",
+    "bpm":"136",
+    "delay":100,
+    "artist":"YAHPP",
+    "title":"Solitary  1.5"
+  },
+  {
+    "ucs_id":"CS081",
+    "bpm":"162",
+    "delay":115,
+    "artist":"YAHPP",
+    "title":"Faster  Z"
+  },
+  {
+    "ucs_id":"CS080",
+    "bpm":"153",
+    "delay":67.5,
+    "artist":"YAHPP",
+    "title":"Pumptris Quattro"
+  },
+  {
+    "ucs_id":"CS096",
+    "bpm":"170",
+    "delay":105,
+    "artist":"YAHPP",
+    "title":"Blaze Emotion"
+  },
+  {
+    "ucs_id":"CS095",
+    "bpm":"185",
+    "delay":167.5,
+    "artist":"YAHPP",
+    "title":"CannonX.1"
+  },
+  {
+    "ucs_id":"CS094",
+    "bpm":"128",
+    "delay":145,
+    "artist":"YAHPP",
+    "title":"Chopsticks Challenge"
+  },
+  {
+    "ucs_id":"CS088",
+    "bpm":"170",
+    "delay":110,
+    "artist":"YAHPP",
+    "title":"Final Audition  EP. 2-X"
+  },
+  {
+    "ucs_id":"CS087",
+    "bpm":"152",
+    "delay":85,
+    "artist":"YAHPP",
+    "title":"Pumptris 8Bit ver."
+  },
+  {
+    "ucs_id":"CS114",
+    "bpm":"190",
+    "delay":-1142.5,
+    "artist":"YAHPP",
+    "title":"XTREE"
+  },
+  {
+    "ucs_id":"CS113",
+    "bpm":"158",
+    "delay":-1320,
+    "artist":"YAHPP",
+    "title":"Sorceress Eliese"
+  },
+  {
+    "ucs_id":"CS112",
+    "bpm":"92",
+    "delay":-510,
+    "artist":"msgoon",
+    "title":"Betrayer  -act.2-"
+  },
+  {
+    "ucs_id":"CS109",
+    "bpm":"200",
+    "delay":220,
+    "artist":"Doin",
+    "title":"Vacuum"
+  },
+  {
+    "ucs_id":"CS098",
+    "bpm":"145",
+    "delay":963,
+    "artist":"Doin",
+    "title":"Tepris"
+  },
+  {
+    "ucs_id":"CS097",
+    "bpm":"185",
+    "delay":75,
+    "artist":"Doin",
+    "title":"Napalm"
+  },
+  {
+    "ucs_id":"CS127",
+    "bpm":"203",
+    "delay":65,
+    "artist":"Doin",
+    "title":"Cleaner"
+  },
+  {
+    "ucs_id":"CS126",
+    "bpm":"180.4",
+    "delay":365,
+    "artist":"Doin",
+    "title":"Interference"
+  },
+  {
+    "ucs_id":"CS117",
+    "bpm":"200",
+    "delay":80,
+    "artist":"Doin",
+    "title":"Pine Nut"
+  },
+  {
+    "ucs_id":"CS116",
+    "bpm":"170",
+    "delay":112,
+    "artist":"Doin",
+    "title":"ASDF"
+  },
+  {
+    "ucs_id":"CS115",
+    "bpm":"155",
+    "delay":-738,
+    "artist":"Doin",
+    "title":"Says"
+  },
+  {
+    "ucs_id":"CS128",
+    "bpm":"140",
+    "delay":45,
+    "artist":"A.V.",
+    "title":"Night  Duty"
+  },
+  {
+    "ucs_id":"CS129",
+    "bpm":"160.81",
+    "delay":90,
+    "artist":"V.A.",
+    "title":"Pavane"
+  },
+  {
+    "ucs_id":"CS148",
+    "bpm":"200",
+    "delay":32,
+    "artist":"Doin",
+    "title":"FFF"
+  },
+  {
+    "ucs_id":"CS110",
+    "bpm":"150",
+    "delay":80,
+    "artist":"SHK",
+    "title":"Destination"
+  },
+  {
+    "ucs_id":"CS118",
+    "bpm":"135",
+    "delay":50,
+    "artist":"SHK",
+    "title":"Native"
+  },
+  {
+    "ucs_id":"CS125",
+    "bpm":"135",
+    "delay":55,
+    "artist":"SHK",
+    "title":"Reality"
+  },
+  {
+    "ucs_id":"CS124",
+    "bpm":"170",
+    "delay":48,
+    "artist":"SHK",
+    "title":"Take Out"
+  },
+  {
+    "ucs_id":"CS147",
+    "bpm":"145",
+    "delay":36,
+    "artist":"SHK",
+    "title":"Unique"
+  },
+  {
+    "ucs_id":"CS111",
+    "bpm":"127",
+    "delay":77.5,
+    "artist":"MAX",
+    "title":"U Got 2 Know"
+  },
+  {
+    "ucs_id":"CS121",
+    "bpm":"128",
+    "delay":55,
+    "artist":"MAX",
+    "title":"We Got 2 Know"
+  },
+  {
+    "ucs_id":"CS122",
+    "bpm":"155",
+    "delay":65,
+    "artist":"MAX",
+    "title":"Overblow"
+  },
+  {
+    "ucs_id":"CS123",
+    "bpm":"128",
+    "delay":977,
+    "artist":"MAX & Rorychesell(SID-SOUND)",
+    "title":"Butterfly"
+  },
+  {
+    "ucs_id":"CS130",
+    "bpm":"140",
+    "delay":-650,
+    "artist":"MAX & Seorryang(SID-SOUND)",
+    "title":"Jonathan's Dream"
+  },
+  {
+    "ucs_id":"CS144",
+    "bpm":"128",
+    "delay":19.5,
+    "artist":"MAX",
+    "title":"U Got Me Rocking"
+  },
+  {
+    "ucs_id":"CS145",
+    "bpm":"180",
+    "delay":-138,
+    "artist":"MAX",
+    "title":"D"
+  },
+  {
+    "ucs_id":"CS146",
+    "bpm":"183",
+    "delay":47,
+    "artist":"MAX",
+    "title":"Accident"
+  },
+  {
+    "ucs_id":"CS152",
+    "bpm":"162",
+    "delay":807,
+    "artist":"DM Ashura",
+    "title":"Elise"
+  },
+  {
+    "ucs_id":"CS142",
+    "bpm":"196",
+    "delay":55,
+    "artist":"Affinity",
+    "title":"Monolith"
+  },
+  {
+    "ucs_id":"CS141",
+    "bpm":"112",
+    "delay":-515,
+    "artist":"Celldweller",
+    "title":"Switchback"
+  },
+  {
+    "ucs_id":"CS140",
+    "bpm":"133",
+    "delay":55,
+    "artist":"Coconut",
+    "title":"Ladybug"
+  },
+  {
+    "ucs_id":"CS139",
+    "bpm":"190",
+    "delay":95,
+    "artist":"Diclonius  Kid",
+    "title":"Hardkore of the  North"
+  },
+  {
+    "ucs_id":"CS138",
+    "bpm":"128",
+    "delay":80,
+    "artist":"Future  Funk Squad",
+    "title":"Rippin'  It Up"
+  },
+  {
+    "ucs_id":"CS137",
+    "bpm":"150",
+    "delay":90,
+    "artist":"Hi-G",
+    "title":"Tribe Attacker"
+  },
+  {
+    "ucs_id":"CS136",
+    "bpm":"180",
+    "delay":42.5,
+    "artist":"Inspector K",
+    "title":"Virtual Emotion"
+  },
+  {
+    "ucs_id":"CS135",
+    "bpm":"185",
+    "delay":695,
+    "artist":"KURi-ZiLL",
+    "title":"Heel  and  Toe"
+  },
+  {
+    "ucs_id":"CS133",
+    "bpm":"125",
+    "delay":47.5,
+    "artist":"Sanxion7",
+    "title":"Rainspark"
+  },
+  {
+    "ucs_id":"CS132",
+    "bpm":"142",
+    "delay":75,
+    "artist":"Stian  K",
+    "title":"Be Alive (Raaban Inc. Mix)"
+  },
+  {
+    "ucs_id":"CS131",
+    "bpm":"155",
+    "delay":45,
+    "artist":"Zircon",
+    "title":"Star Command"
+  }
+]
