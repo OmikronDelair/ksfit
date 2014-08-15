@@ -25,13 +25,13 @@ class KsfsController < ApplicationController
     result = nil
 
     @current_songs.each do |song|
-      result = song['ucs_id'] if (filename[song['ucs_id']] != nil)
+      result = [song['ucs_id'],song['title'],song['artist']] if (filename[song['ucs_id']] != nil)
     end
 
     if result == nil
-      ["Song was not found", nil]
+      ["Song was not found! Select the song that corresponds to your stepchart.", nil]
     else
-      ["Song found! " + result, result]
+      ["Song found! " + result[1] + " by " + result[2], result[0]]
     end
   end
 
