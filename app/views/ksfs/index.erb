@@ -6,6 +6,8 @@
   <%= file_field_tag 'ucs_file' %>
 <% end %>
 
-<div id="ucs-info"></div>
+<div id="ucs-info">
+  <%= select(:song, :ucs_id, @current_songs.map {|s| [ s['title'], s['ucs_id'] ] }) %>
+</div>
 
 <script src="/assets/ksf_app.js"></script>

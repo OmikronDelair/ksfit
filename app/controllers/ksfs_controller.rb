@@ -1,4 +1,6 @@
 class KsfsController < ApplicationController
+  before_action :get_songs
+
   def index
   end
 
@@ -18,6 +20,11 @@ class KsfsController < ApplicationController
   end
 
   private
+
+  def get_songs
+    songs_json = Rails.root.join('app','assets','javascripts','current_songs.json')
+    @current_songs = ActiveSupport::JSON.decode(File.open(songs_json))
+  end
 
   def numberize slug
     slug + '-' + Time.now.seconds_since_midnight.round.to_s
