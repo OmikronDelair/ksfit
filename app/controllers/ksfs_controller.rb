@@ -157,7 +157,6 @@ class KsfsController < ApplicationController
           files: [
             {
               name: filename,
-              url: 'uploads/' + filename,
               message: find_file(filename)
             }
           ]
