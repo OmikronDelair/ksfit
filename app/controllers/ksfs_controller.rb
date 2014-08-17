@@ -31,8 +31,7 @@ class KsfsController < ApplicationController
 
   def ucs_to_ksf ucs_id, filename
     ksf = numberize(ucs_id) + ".ksf"
-    rq_file = filename
-    file_location = Rails.root.join('public', 'uploads', rq_file)
+    file_location = Rails.root.join('public', 'uploads', filename)
     ksf_file = File.open(Rails.root.join('public', 'uploads', ksf), 'wb')
     ksf_file.write("#TITLE:"+ucs_id+";\r\n")
     line_index = 0
