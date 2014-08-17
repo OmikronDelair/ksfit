@@ -10,6 +10,7 @@ $(function () {
         $('<p/>').text(file.message[0]).attr('data-ucs-info',file.name).appendTo('#ucs-info');
         $('select').val(file.message[1]);
         $('#file_name').val(file.name);
+        $('#song_title').val($(':selected').text());
       });
     },
     progressall: function (e, data) {
