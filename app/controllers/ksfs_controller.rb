@@ -108,15 +108,20 @@ class KsfsController < ApplicationController
 
     elsif ['.','X','M','H','W'].include? line[0]
 
-      for i in 1..line.length do
-        line['.'] ? line['.'] = "0" : nil
-        line['X'] ? line['X'] = "1" : nil
-        line['M'] ? line['M'] = "4" : nil
-        line['H'] ? line['H'] = "4" : nil
-        line['W'] ? line['W'] = "4" : nil
+      if @first_block != 0
+        line = ""
+        @first_block -= 1
+      else
+        for i in 1..line.length do
+          line['.'] ? line['.'] = "0" : nil
+          line['X'] ? line['X'] = "1" : nil
+          line['M'] ? line['M'] = "4" : nil
+          line['H'] ? line['H'] = "4" : nil
+          line['W'] ? line['W'] = "4" : nil
+        end
       end
 
-      if line.length < 8
+      if line.length < 8 && line != ""
         line["\r\n"] ? line["\r\n"] = '' : nil
         line = line + ("00000000\r\n")
       end
