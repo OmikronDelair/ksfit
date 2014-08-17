@@ -70,7 +70,7 @@ class KsfsController < ApplicationController
   end
 
   def parse_line line,line_index
-    if line[":Format="] || line[":Mode="]
+    if line[":Format="] || line[":Mode="] || line[":Beat="]
 
       line = ""
 
@@ -93,20 +93,17 @@ class KsfsController < ApplicationController
         line["\r\n"] = ";\r\n"
       end
 
-    elsif line[":Beat="]
-
-      line = ""
-      @beat = 1
-
     elsif line[":Split="]
 
       @split = line.gsub(":Split=","")
       @split["\r\n"] = ""
+      @first_block = 0
 
       if line_index > 7
-        line = "|T"+(@beat.to_i*@split.to_i).to_s+"|\r\n"
+        line = "|T"+@split+"|\r\n"
       else
-        line = "#TICKCOUNT:"+(@beat.to_i*@split.to_i).to_s+";\r\n#STEP:\r\n"
+        line = "#TICKCOUNT:"+@split+";\r\n#STEP:\r\n"
+        @first_block = @split.to_i/2
       end
 
     elsif ['.','X','M','H','W'].include? line[0]
