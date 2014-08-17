@@ -17,8 +17,8 @@ $(function () {
                      .val(file.message[1]);
         };
 
-        $('#file_name').val(file.name);
-        $('#song_title').val($(':selected').text());
+        $('#ucs_filename').val(file.name);
+        $('#ucs_title').val($(':selected').text());
       });
     },
     progressall: function (e, data) {

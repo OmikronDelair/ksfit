@@ -8,9 +8,9 @@
 
 <div id="ucs-info">
 <%= form_tag({action: :ksf_it}, id: 'ksf-it') do %>
-  <%= select(:song, :ucs_id, @current_songs.map {|s| [ s['title'], s['ucs_id'] ] }, {}, {style: 'display: none'}) %>
-  <%= text_field :file, :name, style: 'display: none' %>
-  <%= text_field :song, :title, style: 'display: none' %>
+  <%= select(:ucs, :id, @current_songs.map {|s| [ s['title'], s['ucs_id'] ] }, {}, {style: 'display: none'}) %>
+  <%= text_field :ucs, :filename, style: 'display: none' %>
+  <%= text_field :ucs, :title, style: 'display: none' %>
   <%= submit_tag "KSF it!"%>
 <% end %>
 </div>
