@@ -11,7 +11,7 @@
   <%= select(:ucs, :id, @current_songs.map {|s| [ s['title'], s['ucs_id'] ] }, {}, {style: 'display: none'}) %>
   <%= text_field :ucs, :filename, style: 'display: none' %>
   <%= text_field :ucs, :title, style: 'display: none' %>
-  <%= text_area :ucs, :body %>
+  <%= text_area :ucs, :body, style: 'display: none' %>
   <%= submit_tag "KSF it!"%>
 <% end %>
 </div>
