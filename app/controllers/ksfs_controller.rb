@@ -56,7 +56,7 @@ class KsfsController < ApplicationController
 
       Zip::File.open(temp_file.path, Zip::File::CREATE) do |zip|
         zip.add(ucs_info[:id]+".ksf", Rails.root.join('public', 'uploads', ksf_name))
-        zip.add("Song.mp3", Rails.root.join('public', 'audios', ucs_info[:id]+".mp3"))
+        zip.add("Song.mp3", Rails.root.join('app/assets', 'audios', ucs_info[:id]+".mp3"))
       end
 
       zip_data = File.read(temp_file.path)
@@ -69,7 +69,7 @@ class KsfsController < ApplicationController
   end
 
   def parse_line line,line_index
-    if line[":Format="] || line[":Mode="] || line[":Beat="]
+    if line[":Format="] || line[":Mode="]
 
       line = ""
 
@@ -92,6 +92,15 @@ class KsfsController < ApplicationController
         line["\r\n"] = ";\r\n"
       end
 
+    elsif line[":Beat="]
+
+      if line_index < 7
+        @beat = line.gsub(":Beat=","")
+        @beat["\r\n"] = ""
+      end
+
+      line = ""
+
     elsif line[":Split="]
 
       @split = line.gsub(":Split=","")
@@ -102,7 +111,13 @@ class KsfsController < ApplicationController
         line = "|T"+@split+"|\r\n"
       else
         line = "#TICKCOUNT:"+@split+";\r\n#STEP:\r\n"
-        @first_block = @split.to_i/2
+
+        if @beat.to_i >= 8
+          @first_block = @split.to_i
+        else
+          @first_block = @split.to_i/2
+        end
+
       end
 
     elsif ['.','X','M','H','W'].include? line[0]
