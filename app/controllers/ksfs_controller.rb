@@ -26,21 +26,16 @@ class KsfsController < ApplicationController
   private
 
   def ucs_to_ksf ucs_info
-    ksf = numberize(ucs_info[:id]) + ".ksf"
-    file_location = Rails.root.join('public', 'uploads', ucs_info[:filename])
-    ksf_file = File.open(Rails.root.join('public', 'uploads', ksf), 'wb')
-    ksf_file.write("#TITLE:"+ucs_info[:title]+";\r\n")
-    line_index = 0
+    ucs_body, line_index, @ksf_body = ucs_info[:body],
+                                      0,
+                                      "#TITLE:"+ucs_info[:title]+";\r\n"
 
-    File.open(file_location).each_line do |line|
-      ksf_file.write(parse_line line,line_index)
+    ucs_body.each_line do |line|
+      @ksf_body += parse_line line, line_index
       line_index += 1
     end
 
-    ksf_file.write("2222222222222")
-    ksf_file.close
-
-    return ksf
+    @ksf_body += "2222222222222"
   end
 
   def zip_simfile ksf_name, ucs_info
