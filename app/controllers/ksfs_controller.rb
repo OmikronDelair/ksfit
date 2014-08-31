@@ -20,7 +20,7 @@ class KsfsController < ApplicationController
 
   def ksf_it
     ksf_file = ucs_to_ksf params[:ucs]
-    zip_simfile ksf_file, params[:ucs]
+    zip_simfile params[:ucs][:id]
   end
 
   private
@@ -38,16 +38,20 @@ class KsfsController < ApplicationController
     @ksf_body += "2222222222222"
   end
 
-  def zip_simfile ksf_name, ucs_info
-    filename = ucs_info[:title]+'.zip'
+  def zip_simfile ucs_id
+    filename = ucs_id +'.zip'
     temp_file = Tempfile.new(filename)
+    ksf_tmp_file = Tempfile.new(ucs_id)
+    ksf_new_file = File.open(ksf_tmp_file, 'wb')
+
+    ksf_new_file.write(@ksf_body)
 
     begin
       Zip::OutputStream.open(temp_file) { |zos| }
 
       Zip::File.open(temp_file.path, Zip::File::CREATE) do |zip|
-        zip.add(ucs_info[:id]+".ksf", Rails.root.join('public', 'uploads', ksf_name))
-        zip.add("Song.mp3", Rails.root.join('app/assets', 'audios', ucs_info[:id]+".mp3"))
+        zip.add(ucs_id+".ksf", ksf_new_file)
+        zip.add("Song.mp3", Rails.root.join('app/assets', 'audios', ucs_id+".mp3"))
       end
 
       zip_data = File.read(temp_file.path)
