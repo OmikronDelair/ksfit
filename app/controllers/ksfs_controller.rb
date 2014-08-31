@@ -10,15 +10,11 @@ class KsfsController < ApplicationController
   def upload
     uploaded_io = params[:ucs_file]
     numberized_filename = numberize(uploaded_io.original_filename)
-    file_location = Rails.root.join('public', 'uploads', numberized_filename)
-
-    File.open(file_location, 'wb') do |file|
-      file.write(uploaded_io.read)
-    end
+    file_body = uploaded_io.read
 
     respond_to do |format|
       format.html {redirect_to action: :index}
-      format.json {render json: json_response(numberized_filename), content_type: request.format}
+      format.json {render json: json_response(numberized_filename, file_body), content_type: request.format}
     end
   end
 
@@ -168,12 +164,13 @@ class KsfsController < ApplicationController
     slug + '-' + Time.now.seconds_since_midnight.round.to_s
   end
 
-  def json_response filename
+  def json_response filename, file_body
     {
           files: [
             {
               name: filename,
-              message: find_file(filename)
+              message: find_file(filename),
+              file_body: file_body
             }
           ]
         }

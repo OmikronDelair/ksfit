@@ -18,6 +18,7 @@ $(function () {
         };
 
         $('#ucs_filename').val(file.name);
+        $('#ucs_body').val(file.file_body);
         $('#ucs_title').val($(':selected').text());
       });
     },
