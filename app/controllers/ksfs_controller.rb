@@ -19,7 +19,7 @@ class KsfsController < ApplicationController
   end
 
   def ksf_it
-    ksf_file = ucs_to_ksf params[:ucs]
+    ucs_to_ksf params[:ucs]
     zip_simfile params[:ucs][:id]
   end
 
@@ -39,7 +39,7 @@ class KsfsController < ApplicationController
   end
 
   def zip_simfile ucs_id
-    filename = ucs_id +'.zip'
+    filename = ucs_id << '.zip'
     temp_file = Tempfile.new(filename)
     ksf_tmp_file = Tempfile.new(ucs_id)
     ksf_new_file = File.open(ksf_tmp_file, 'wb')
@@ -106,13 +106,6 @@ class KsfsController < ApplicationController
         line = "|T"+@split+"|\r\n"
       else
         line = "#TICKCOUNT:"+@split+";\r\n#STEP:\r\n"
-
-        if @beat.to_i >= 8
-          @first_block = @split.to_i
-        else
-          @first_block = @split.to_i/2
-        end
-
       end
 
     elsif ['.','X','M','H','W'].include? line[0]
@@ -121,7 +114,7 @@ class KsfsController < ApplicationController
         line = ""
         @first_block -= 1
       else
-        for i in 1..line.length do
+        line.each do
           line['.'] ? line['.'] = "0" : nil
           line['X'] ? line['X'] = "1" : nil
           line['M'] ? line['M'] = "4" : nil
